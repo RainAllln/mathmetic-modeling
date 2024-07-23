@@ -113,17 +113,19 @@ class PSO:
         pos_value = part.get_pos() + part.get_vel()
         part.set_pos(pos_value)
         value = fit_fun(part.get_pos())
+        # 更新该粒子的最佳适应度和对应的位置
         if value < part.get_fitness_value(): #本题中适应度越小越好,minf(x)
             part.set_fitness_value(value)
             part.set_best_pos(pos_value)
+        # 更新种群的最佳适应度和位置
         if value < self.get_bestFitnessValue():
             self.set_bestFitnessValue(value)
             self.set_bestPosition(pos_value)
 
     def update_ndim(self):
 
-        for i in range(self.iter_num):
-            for part in self.Particle_list:
+        for i in range(self.iter_num): #迭代次数上限
+            for part in self.Particle_list: #遍历粒子种群
                 self.update_vel(part)  # 更新速度
                 self.update_pos(part)  # 更新位置
             self.fitness_val_list.append(self.get_bestFitnessValue())  # 每次迭代完把当前的最优适应度存到列表
@@ -134,7 +136,6 @@ class PSO:
         return self.fitness_val_list, self.get_bestPosition()
 
 if __name__ == '__main__':
-    # test 香蕉函数
     pso = PSO(4, 5, 10000, 30, 60, 1e-4, C1=2, C2=2, W=1)
     fit_var_list, best_pos = pso.update_ndim()
     print("最优位置:" + str(best_pos))
