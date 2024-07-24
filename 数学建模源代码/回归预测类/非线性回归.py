@@ -6,11 +6,8 @@
 # 非线性回归及流程
 # https://blog.csdn.net/weixin_71894495/article/details/132035479?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522172183593616800211552547%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=172183593616800211552547&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-4-132035479-null-null.142^v100^pc_search_result_base1&utm_term=python%E5%81%9A%E9%9D%9E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90&spm=1018.2226.3001.4187
 # 多项式非线性回归
+
 import random
-
-# coding=gbk
-# -*- coding = utf-8 -*-
-
 import numpy as np
 import pandas as pd
 from scipy.optimize import curve_fit

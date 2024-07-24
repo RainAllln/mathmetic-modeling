@@ -3,7 +3,7 @@
 # 公式a=(n*∑(x_i*y_i)-∑x_i*∑y_i)/(n*∑x_i^2-(∑x_i)^2)
 # b=y^- - a*x^-,(y^-指y的平均数)
 # scikit-learn 是用于机器学习的最佳Python库之一，适用于拟合和预测。它为用户提供了不同的数值计算和统计建模选项。
-# 它最重要的线性回归子模块是LinearRegression， 使用最小二乘法作为最小化标准来寻找线性回归的参数。
+# 它最重要的线性回归子模块是LinearRegression, 使用最小二乘法作为最小化标准来寻找线性回归的参数。
 # https://blog.csdn.net/csdn1561168266/article/details/129214694?ops_request_misc=&request_id=&biz_id=102&utm_term=python%E8%BF%9B%E8%A1%8C%E4%B8%80%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-8-129214694.142^v100^pc_search_result_base1&spm=1018.2226.3001.4187
 
 from sklearn.linear_model import LinearRegression
