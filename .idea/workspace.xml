@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdebadbb-e3d6-47dd-933f-f2912c7752d5" name="更改" comment="2024.7.24 study maching-learning">
+    <list default="true" id="bdebadbb-e3d6-47dd-933f-f2912c7752d5" name="更改" comment="2024.7.24 study machine-learning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数学建模源代码/回归预测类/一元回归分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/数学建模源代码/回归预测类/一元回归分析.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数学建模源代码/回归预测类/回归分析概述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数学建模源代码/回归预测类/回归分析概述.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数学建模源代码/回归预测类/多元回归分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/数学建模源代码/回归预测类/多元回归分析.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数学建模源代码/回归预测类/非线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/数学建模源代码/回归预测类/非线性回归.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,7 @@
   "keyToString": {
     "Python.一元回归分析.executor": "Run",
     "Python.多元回归分析.executor": "Run",
+    "Python.灰度预测GM(1,1).executor": "Run",
     "Python.粒子群算法.executor": "Run",
     "Python.蚁群算法.executor": "Run",
     "Python.非线性回归.executor": "Run",
@@ -47,7 +44,7 @@
     "last_opened_file_path": "G:/PythonGitWork/PythonGitwork1"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.非线性回归">
+  <component name="RunManager" selected="Python.灰度预测GM(1,1)">
     <configuration name="蚁群算法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -62,6 +59,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学建模源代码/优化类算法/蚁群算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="灰度预测GM(1,1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学建模源代码/回归预测类" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学建模源代码/回归预测类/灰度预测GM(1,1).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.非线性回归" />
+        <item itemvalue="Python.灰度预测GM(1,1)" />
         <item itemvalue="Python.蚁群算法" />
       </list>
     </recent_temporary>
@@ -251,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721836929092</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2024.7.24 study machine-learning">
+      <option name="closed" value="true" />
+      <created>1721837103575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721837103575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +286,7 @@
     <MESSAGE value="2024.7.23 study PSO" />
     <MESSAGE value="2024.7.23 study maching-learning" />
     <MESSAGE value="2024.7.24 study maching-learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.7.24 study maching-learning" />
+    <MESSAGE value="2024.7.24 study machine-learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.7.24 study machine-learning" />
   </component>
 </project>
