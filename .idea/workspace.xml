@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdebadbb-e3d6-47dd-933f-f2912c7752d5" name="更改" comment="2024.7.25 微分方程经典模型">
+    <list default="true" id="bdebadbb-e3d6-47dd-933f-f2912c7752d5" name="更改" comment="2024.7.26 机器学习经典模型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,32 +32,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.odeint使用.executor": "Run",
-    "Python.一元回归分析.executor": "Run",
-    "Python.决策树模型.executor": "Run",
-    "Python.多元回归分析.executor": "Run",
-    "Python.微分方程python求解 (1).executor": "Run",
-    "Python.朴素贝叶斯.executor": "Run",
-    "Python.灰度预测GM(1,1).executor": "Run",
-    "Python.粒子群算法.executor": "Run",
-    "Python.蚁群算法.executor": "Run",
-    "Python.逻辑回归模型.executor": "Run",
-    "Python.随机森林模型.executor": "Run",
-    "Python.非线性回归.executor": "Run",
-    "Python.马尔萨斯人口模型.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "G:/PythonGitWork/PythonGitwork1/数学建模源代码/回归预测类"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.odeint使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.一元回归分析.executor&quot;: &quot;Run&quot;,
+    &quot;Python.决策树模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多元回归分析.executor&quot;: &quot;Run&quot;,
+    &quot;Python.微分方程python求解 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.朴素贝叶斯.executor&quot;: &quot;Run&quot;,
+    &quot;Python.灰度预测GM(1,1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.粒子群算法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.蚁群算法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.逻辑回归模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.随机森林模型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.非线性回归.executor&quot;: &quot;Run&quot;,
+    &quot;Python.马尔萨斯人口模型.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/PythonGitWork/PythonGitwork1/数学建模源代码/回归预测类&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\PythonGitWork\PythonGitwork1\数学建模源代码\回归预测类" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.随机森林模型">
+  <component name="RunManager" selected="Python.main">
     <configuration name="决策树模型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -301,10 +302,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.随机森林模型" />
-        <item itemvalue="Python.朴素贝叶斯" />
         <item itemvalue="Python.决策树模型" />
-        <item itemvalue="Python.逻辑回归模型" />
         <item itemvalue="Python.微分方程python求解 (1)" />
       </list>
     </recent_temporary>
@@ -405,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721962113433</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024.7.26 机器学习经典模型">
+      <option name="closed" value="true" />
+      <created>1722011833655</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722011833655</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -417,6 +423,7 @@
     <MESSAGE value="2024.7.25 study GM(1,1)" />
     <MESSAGE value="2024.7.25 study ARIMA(p,q,d)" />
     <MESSAGE value="2024.7.25 微分方程经典模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.7.25 微分方程经典模型" />
+    <MESSAGE value="2024.7.26 机器学习经典模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.7.26 机器学习经典模型" />
   </component>
 </project>
